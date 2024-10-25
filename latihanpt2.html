@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Pertemuan 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            display: block; /* Memastikan gambar berada di baris baru */
+            margin: 0 auto; /* Memusatkan gambar */
+            max-width: 100%; /* Responsif */
+            height: auto;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block; /* Memastikan label berada di baris baru */
+            margin: 10px 0 5px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Latihan Pertemuan 2</h1>
+    <img src="images/panda.jpg" alt="Gambar Pertemuan 2">
+
+    <form>
+        <label for="dropdown">Pilih Opsi:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="option1">Opsi 1</option>
+            <option value="option2">Opsi 2</option>
+            <option value="option3">Opsi 3</option>
+        </select>
+
+        <label>Checkbox Pilihan:</label>
+        <label><input type="checkbox" name="checkbox1" value="check1"> Pilihan 1</label>
+        <label><input type="checkbox" name="checkbox2" value="check2"> Pilihan 2</label>
+
+        <label>Radio Pilihan:</label>
+        <label><input type="radio" name="radio" value="radio1"> Radio 1</label>
+        <label><input type="radio" name="radio" value="radio2"> Radio 2</label>
+
+        <button type="submit">Kirim Data</button>
+    </form>
+</div>
+
+</body>
+</html>

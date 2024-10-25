@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Membuat Tabel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Menggabungkan border */
+            margin-bottom: 20px; /* Jarak antara tabel */
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .bordered {
+            border: 1px solid #000; /* Border untuk tabel dengan border */
+        }
+        .bordered th, .bordered td {
+            border: 1px solid #000; /* Border untuk sel tabel */
+        }
+        .no-border th, .no-border td {
+            border: none; /* Tidak ada border untuk tabel tanpa border */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tabel dengan Border</h1>
+<table class="bordered">
+    <thead>
+        <tr>
+            <th>Kolom 1</th>
+            <th>Kolom 2</th>
+            <th>Kolom 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Data 1.1</td>
+            <td>Data 1.2</td>
+            <td>Data 1.3</td>
+        </tr>
+        <tr>
+            <td>Data 2.1</td>
+            <td>Data 2.2</td>
+            <td>Data 2.3</td>
+        </tr>
+        <tr>
+            <td>Data 3.1</td>
+            <td>Data 3.2</td>
+            <td>Data 3.3</td>
+        </tr>
+    </tbody>
+</table>
+
+<h1>Tabel Tanpa Border</h1>
+<table class="no-border">
+    <thead>
+        <tr>
+            <th>Kolom A</th>
+            <th>Kolom B</th>
+            <th>Kolom C</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Data A.1</td>
+            <td>Data A.2</td>
+            <td>Data A.3</td>
+        </tr>
+        <tr>
+            <td>Data B.1</td>
+            <td>Data B.2</td>
+            <td>Data B.3</td>
+        </tr>
+        <tr>
+            <td>Data C.1</td>
+            <td>Data C.2</td>
+            <td>Data C.3</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
